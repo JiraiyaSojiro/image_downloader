@@ -29,7 +29,7 @@ def get_extension_from_content_type(content_type):
 # วนลูปผ่านแต่ละแถวใน DataFrame
 for index, row in df.iterrows():
     img_url = row['URL_File']
-    img_name = row['Name_File']
+    img_name = str(row['Name_File'])  # แปลงชื่อไฟล์เป็นสตริง
     save_path = os.path.join(save_folder, img_name)  # กำหนดชื่อไฟล์เบื้องต้น
 
     try:
