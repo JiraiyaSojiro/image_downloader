@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  imagedownloader:
+    build: .
+    volumes:
+      - ./data:/data
+      - ./input:/input
