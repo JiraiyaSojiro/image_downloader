@@ -14,7 +14,7 @@ This project is a Python script that utilizes the pandas and requests libraries 
    
 2. **Prepare the Excel file:**
 
-Place an Excel file containing the columns Image URL and Desired Filename into the input folder, naming the file image_links.xlsx
+Place an Excel file containing the columns "URL_File" and "Name_File" into the input folder, naming the file image_links.xlsx
 
 3. **Run the project with Docker Compose:**
 
@@ -54,7 +54,7 @@ Jiraiya
    
 2. **เตรียมไฟล์ Excel:**
 
-วางไฟล์ Excel ที่มีคอลัมน์ URLรูป และ ชื่อไฟล์ที่ต้องการให้บันทึก ลงในโฟลเดอร์ input โดยตั้งชื่อไฟล์ว่า image_links.xlsx
+วางไฟล์ Excel ที่มีคอลัมน์ "URL_File" และ "Name_File" ลงในโฟลเดอร์ input โดยตั้งชื่อไฟล์ว่า image_links.xlsx
 
 3. **รันโปรเจกต์ด้วย Docker Compose:**
 
